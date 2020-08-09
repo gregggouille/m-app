@@ -1,0 +1,22 @@
+header {
+  background-color: blue;
+  height: 5vh;
+  width: 100vw;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header > nav > div {
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.app > header {
+  justify-content: space-evenly;
+}
